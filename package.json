@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "serve": "http-server . -p 8085 -c-1",
+    "cp:simply": "cp ../simply-ui/build/* ./project/simply"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
